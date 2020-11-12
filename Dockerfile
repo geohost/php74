@@ -42,7 +42,8 @@ RUN apt update ; \
     imagemagick \
     mailutils \
     net-tools \
-    supervisor
+    supervisor \
+    cron
 
 # Install PHP mcyrpt module
 RUN apt install php-dev libmcrypt-dev gcc make autoconf libc-dev pkg-config php-pear -y
