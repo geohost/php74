@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:20.10
 LABEL maintainer="George Draghici <george@geohost.ro>"
 
 # Setting frontend Noninteractive
